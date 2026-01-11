@@ -8,6 +8,9 @@ all:
             prod-web:
               ansible_host: 10.0.21.101
               ansible_user: kasutaja
+            staging-web:
+              ansible_host: 10.0.21.101
+              ansible_user: kasutaja
         development:
           hosts:
             dev-web:
